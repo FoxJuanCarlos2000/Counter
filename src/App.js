@@ -1,7 +1,8 @@
 import "./styles.css";
-import Counter from "./Counter";
+//import Counter from "./Counter";
 import Notas from "./Notas";
-import Courses from "./Courses";
+//import Courses from "./Courses";
+//import Conditional from "./condicional";
 
 // Const es un tipo de declaración de variable
 // que nos dice que la variable es la misma
@@ -70,13 +71,13 @@ const cours = [
   }
 ];
 
-//
+// <Courses cours={cours} />
+//<Counter />
+//<Conditional totalMessages={0} />
 export default function App() {
   return (
     <div>
-      <Counter />
       <Notas notes={notes} />
-      <Courses cours={cours} />
     </div>
   );
 }
