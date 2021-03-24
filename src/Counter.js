@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -10,6 +10,10 @@ const Counter = () => {
   const handleClick2 = () => {
     setCount(count - 1);
   };
+
+  useEffect(() => {
+    console.log("Diste click $(count) veces");
+  });
 
   return (
     <Fragment>
