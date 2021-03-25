@@ -1,6 +1,7 @@
 import "./styles.css";
 //import Counter from "./Counter";
-import Notas from "./Notas";
+//import Notas from "./Notas";
+import Telefonos from "./Telefonia";
 //import Courses from "./Courses";
 //import Conditional from "./condicional";
 
@@ -74,10 +75,11 @@ const cours = [
 // <Courses cours={cours} />
 //<Counter />
 //<Conditional totalMessages={0} />
+//<Notas notes={notes} />
 export default function App() {
   return (
     <div>
-      <Notas notes={notes} />
+      <Telefonos />
     </div>
   );
 }
