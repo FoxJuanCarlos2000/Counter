@@ -1,0 +1,11 @@
+ //Rest es un protocolo de HTTP que se comunica a travez de un JSON
+  //Realiza las siguientes operaciones
+  //Create
+  //Read
+  //Update
+  //Delete
+  //Los siguientes metodos
+  //Post -> Crear un nuevo resource
+  //Get -> Obtener un resource
+  //Delete -> Eliminar un resource
+  //Put / Patch  -> Actualizar resource

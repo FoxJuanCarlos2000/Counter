@@ -1,9 +1,12 @@
 import "./styles.css";
 //import Counter from "./Counter";
 //import Notas from "./Notas";
-import Telefonos from "./Telefonia";
+//import Telefonos from "./Telefonia";
+//import Asincrono from "./Asincrono";
+//import Rest from "./Rest";
 //import Courses from "./Courses";
 //import Conditional from "./condicional";
+import Todo from "./Todos";
 
 // Const es un tipo de declaración de variable
 // que nos dice que la variable es la misma
@@ -76,10 +79,14 @@ const cours = [
 //<Counter />
 //<Conditional totalMessages={0} />
 //<Notas notes={notes} />
+//<Telefonos />
+//<Asincrono />
+//<Rest />
+//<Todo />
 export default function App() {
   return (
     <div>
-      <Telefonos />
+      <Todo />
     </div>
   );
 }
